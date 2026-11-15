@@ -19,10 +19,11 @@ https://41.gigafile.nu/1120-k42c1743e0c7f957ddebde5e9013fa555
 ## EXE化
 
 PySide6を使用しています。`main.py` が起動ファイルで、EXE化する場合のエントリポイントです。
-"python -m PyInstaller --noconsole --noconfirm main.py"でコンパイルしてください。
+"python -m PyInstaller --noconsole --noconfirm main.py"でコンパイルしてください
 アイコンを設定したい場合
-"python -m PyInstaller --noconsole --noconfirm --icon=アイコンのファイル名.ico main.py"でコンパイルしてください。
-exe化した場合、main.exeと同じ場所に素材を入れたassetsフォルダを再配置してください。
+"python -m PyInstaller --noconsole --noconfirm --icon=アイコンのファイル名.ico main.py"でコンパイルしてください
+コンパイルすると、main.pyと同じ場所にdistフォルダが作成され、その中にmain.exeが作成されます。
+exe化した場合、main.exeと同じ場所にassetsフォルダを再配置してください。
 
 ## OS対応について
 
