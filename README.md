@@ -20,6 +20,7 @@ PySide6を使用しています。`main.py` が起動ファイルで、EXE化す
 "python -m PyInstaller --noconsole --noconfirm main.py"でコンパイルしてください。
 アイコンを設定したい場合
 "python -m PyInstaller --noconsole --noconfirm --icon=アイコンのファイル名.ico main.py"でコンパイルしてください。
+exe化した場合、main.exeと同じ場所に素材を入れたassetsフォルダを再配置してください。
 
 ## OS対応について
 
